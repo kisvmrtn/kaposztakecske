@@ -11,8 +11,7 @@ const kecskeMozgatas = () => {
     let articleElem = document.getElementById("csonak")
     let balKep = document.querySelector('img[alt="kecske"]');
         if (balKep) {
-            balKep.style.display = 'none';
-            articleElem.innerHTML+= ``
+            articleElem.appendChild(balKep)
 
         }
         console.log(articleElem) 
