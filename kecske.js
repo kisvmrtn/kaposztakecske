@@ -56,3 +56,12 @@ const kaposztaMozgatas = () => {
         csonakElemek = csonakElemek.filter(elem => elem !== kaposztaKep)
     }
 }
+const csonakBalra = () => {
+    document.querySelector('article').style.backgroundPosition = "left";
+    document.querySelector('article img').style.marginLeft = "0px";
+}
+
+const csonakJobbra = () => {
+    document.querySelector('article').style.backgroundPosition = "right";
+    document.querySelector('article img').style.marginLeft = "80%";
+}
